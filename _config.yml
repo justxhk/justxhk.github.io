@@ -46,6 +46,14 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
     input: GFM
+    extensions:
+        - autolink
+        - footnotes
+        - smart
+      use_coderay: true
+      syntax_highlighter: rouge
+      coderay:
+        coderay_line_numbers:  nil
 
 # Default Attributes
 ## Docs: https://jekyllrb.com/docs/configuration/#front-matter-defaults
